@@ -21,7 +21,13 @@ setup(
     entry_points={
         'console_scripts': [
             'simplepub = my_pkg.simplepublisher:main',
-            'simplesub = my_pkg.simplepushpublisher:main'
+            'simplesub = my_pkg.simplepusubscriber:main',
+            'simpletimepub = my_pkg.simpletimepublisher:main',
+            'simpletimesub = my_pkg.simpletimesubscriber:main',
+            'messagepub = my_pkg.messagepublisher:main',
+            'messagesub1 = my_pkg.messagesubscriber1:main',
+            'messagesub2 = my_pkg.messagesubscriber2:main',
+            'messagetimesub = my_pkg.messageTimeSubscriber:main'
         ],
     },
 )
